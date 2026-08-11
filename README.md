@@ -105,7 +105,7 @@ The Power BI semantic model was designed around multiple fact tables rather than
 - **DimDate**
 
 This structure protects the analytical model from many-to-many duplication and allows measures to be calculated at the appropriate business grain.
-
+![Dimensional Data Model](images/Dimensional_Modelling.png)
 ---
 
 ## Dashboard Overview
@@ -114,18 +114,21 @@ The Power BI report contains five analytical areas:
 
 ### 1. Executive Overview
 High-level monitoring of completed revenue, orders, items sold and average order value, including monthly performance trends and geographic revenue distribution.
-
+![Executive Overview Dashboard](images/Executive_Overview.png)
 ### 2. Product Category Performance
 Analysis of category revenue, items sold, average selling price, revenue contribution and cumulative revenue concentration.
-
+![Product Performance Dashboard](images/product_performance.png)
 ### 3. Customer Performance
 Analysis of customer distribution, revenue per customer, repeat customers, repeat customer rate and geographic customer concentration.
-
+![Customer Performance Dashboard](images/customer_performance.png)
 ### 4. Delivery Performance
 Monitoring of on-time delivery, average delivery duration, performance against estimated delivery dates, review scores and regional late-delivery rates.
-
+![Delivery Performance Dashboard](images/delivery_performance.png)
 ### 5. Payment Analysis
+
 Analysis of completed payment value, average payment per order, instalment behaviour, payment methods and multi-payment orders.
+
+![Payment Analysis Dashboard](images/Payment_Analysis.png)
 
 ---
 
